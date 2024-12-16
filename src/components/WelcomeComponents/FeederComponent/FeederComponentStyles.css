@@ -1,0 +1,41 @@
+#feeder_component_main{
+    width: 100%;
+    max-width: 1200px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#feeder_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: 	transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#get_more_feeder_button{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f3f8fd;
+    background: #1976d2;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#get_more_feeder_button p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+}

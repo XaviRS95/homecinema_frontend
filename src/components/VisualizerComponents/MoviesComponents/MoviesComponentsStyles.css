@@ -1,0 +1,14 @@
+#visualizer_root{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#visualizer_movie_video{
+    width: 1000px;
+    height: auto;
+    max-width: 100vh;
+}
